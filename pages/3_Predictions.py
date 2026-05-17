@@ -1663,7 +1663,7 @@ def main():
     """, unsafe_allow_html=True)
     
     # Load icon (but hide it since we're using our custom banner)
-    st.image("assets/absenteeism_icon.svg", width=0)
+
     
     # Tabs for different sections
     tabs = st.tabs([
